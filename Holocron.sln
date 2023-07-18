@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Holocron", "Holocron\Holocron.vbproj", "{EEE83A13-EABF-4552-8E43-9EF0730130DC}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Holocron Server", "Holocron\Holocron Server.vbproj", "{EEE83A13-EABF-4552-8E43-9EF0730130DC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Holocron Client", "Holocron Client\Holocron Client.vbproj", "{B5B5720C-8A94-4CCA-B743-8161A003F671}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Holocron Server Admin", "Holocron Server Admin\Holocron Server Admin.vbproj", "{C51385DA-A032-446B-A923-9D6A4365D631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EEE83A13-EABF-4552-8E43-9EF0730130DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE83A13-EABF-4552-8E43-9EF0730130DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE83A13-EABF-4552-8E43-9EF0730130DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B5720C-8A94-4CCA-B743-8161A003F671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B5720C-8A94-4CCA-B743-8161A003F671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B5720C-8A94-4CCA-B743-8161A003F671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B5720C-8A94-4CCA-B743-8161A003F671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51385DA-A032-446B-A923-9D6A4365D631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51385DA-A032-446B-A923-9D6A4365D631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51385DA-A032-446B-A923-9D6A4365D631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51385DA-A032-446B-A923-9D6A4365D631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
